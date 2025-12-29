@@ -368,7 +368,7 @@ function placeOrder(){
 
 // ==== SOCIAL ====
 function sendWhatsApp(){const msg=encodeURIComponent("I want to order: "+lastOrderSnapshot.map(i=>`${i.name} x${i.qty}`).join(", "));window.open("https://wa.me/916394174932?text="+msg,"_blank");}
-function sendEmail(){const subject=encodeURIComponent("HeartScript Order"),body=encodeURIComponent("I want to order: "+lastOrderSnapshot.map(i=>`${i.name} x${i.qty}`).join(", "));window.location.href="mailto:rudraprataptripathi2020@gmail.com?subject="+subject+"&body="+body;}
+function sendEmail(){const subject=encodeURIComponent("HeartScript Order"),body=encodeURIComponent("I want to order: "+lastOrderSnapshot.map(i=>`${i.name} x${i.qty}`).join(", "));window.location.href="mailto:heartscript025@gmail.com?subject="+subject+"&body="+body;}
 function sendInstagram(){window.open("https://instagram.com","_blank");}
 
 // ==== PRODUCT DETAIL PAGE ====
@@ -451,3 +451,4 @@ function downloadInvoice(){
 </script>
 </body>
 </html>
+
